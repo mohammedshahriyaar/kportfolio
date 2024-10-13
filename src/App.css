@@ -1,13 +1,13 @@
 
-
-body {
+/* here app-body i added  a custom name ypu were directly assigning style to body */
+.app-body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
   color: #333;
   text-align: center;
   /* Background Image */
-  background-image: url('./components/assets/p1.jpg');
+  background-image: url('./components/assests/p1.jpg');
   background-size: cover; /* Adjusts the image to cover the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */

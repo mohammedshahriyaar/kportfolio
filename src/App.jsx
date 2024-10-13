@@ -4,13 +4,13 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import p1 from './components/assests/p1'
 
+
+// You were not asssigning style here properly
 const App = () => {
   return (
     <div
-      className="App"
-      style={{ backgroundImage: `url(${p1})` }}
+      className="app-body"
 
     >
       <Header />
